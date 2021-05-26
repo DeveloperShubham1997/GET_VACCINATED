@@ -17,7 +17,7 @@ Goverment of india has made cowin api public ( https://apisetu.gov.in/public/api
 
 
 # HOW TO GET TELEGRAM API TOKEN
--->you will get your telegram api token here
+-->you will get your telegram api token after your bot is created
 
 # HOW TO GET CHAT ID
 -->add your bot to your group and hit "/my_id" in chat
