@@ -17,7 +17,7 @@ def find_vaccine(district_id,date):
         resp_json = response.json()
         #print(resp_json)
         for j in resp_json["sessions"]:
-            if(j["available_capacity_dose1"]>=0):
+            if(j["available_capacity_dose1"]>0):
                 centers = []
 
                 
@@ -28,6 +28,7 @@ def find_vaccine(district_id,date):
                 centers.append("min_age_limit: "+str(j["min_age_limit"]))
                 centers.append("available_capacity_dose1: "+str(j["available_capacity_dose1"]))
                 tosend='\n'.join(centers)
+                print(tosend)
                 
 
                 if(tosend not in store):
